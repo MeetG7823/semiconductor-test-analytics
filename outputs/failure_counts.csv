@@ -1,0 +1,4 @@
+failure_mode,devices
+HIGH_LEAKAGE,951
+OVER_CURRENT,107
+LOW_GAIN,84

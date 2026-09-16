@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "raw_rows": 12020,
+  "valid_devices": 11900,
+  "quarantined_rows": 120,
+  "unique_devices_raw": 12000,
+  "devices_without_valid_result": 100,
+  "limits": {
+    "leakage_ua_max": 10.0,
+    "current_ma_max": 60.0,
+    "gain_db_min": 18.0
+  },
+  "devices_tested": 11900,
+  "devices_passed": 10768,
+  "devices_failed": 1132,
+  "yield_percent": 90.49,
+  "finding": "L12 has the lowest observed valid-device yield (47.80%). Compare its leakage distribution with earlier lots at the same temperature and voltage. Check instrument calibration and repeat measurements before investigating a process change."
+}
