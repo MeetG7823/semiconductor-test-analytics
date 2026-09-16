@@ -6,7 +6,7 @@ An AI-assisted educational portfolio project for Meet Gondalia, Computer Enginee
 
 **Implemented:** synthetic CSV generation, validation/quarantine, SQLite analytics, a Streamlit dashboard, downloadable CSVs, an offline HTML report, and six calculation/validation tests.
 
-**Not implemented:** ML prediction, PySpark, cloud deployment, real instrumentation, device physics simulation, or real production validation. This project has no affiliation with Skyworks and uses no company data or specifications.
+**Not implemented:** ML prediction, PySpark, cloud deployment, real instrumentation, device physics simulation, or real production validation. This project has no affiliation with any company data or specifications.
 
 ## Windows quick start
 
@@ -54,7 +54,7 @@ These results describe synthetic data. They are not measured semiconductor produ
 
 ### Illustrative specifications
 
-PASS requires all three: leakage ≤ 10 µA, current ≤ 60 mA, gain ≥ 18 dB. A device exactly at a limit passes. These are educational thresholds, not a Skyworks datasheet. A device can fail more than one limit.
+PASS requires all three: leakage ≤ 10 µA, current ≤ 60 mA, gain ≥ 18 dB. A device exactly at a limit passes. These are educational thresholds. A device can fail more than one limit.
 
 `dc_power_mw = voltage_v × current_ma`: volts × milliamps = milliwatts. This is DC electrical input power, not RF output power, efficiency, or power-added efficiency.
 
@@ -106,8 +106,6 @@ Do not add technologies you cannot explain merely to fill a skills list.
 
 ## Recruiter preparation
 
-Prioritize summer internships. The previously researched Skyworks Data Engineering Summer Intern role (requisition 78258, Irvine) aligns with Python, SQL, validation, and ETL. Ask whether the booth represents that team or can point to a summer product/test internship. The Newbury Park test role (78214) was advertised as a longer summer/fall co-op; do not imply availability for a term you have not planned.
-
 Be accurate about AI assistance and your own contribution. After running and understanding the project, discuss the decisions you can defend: denominator choice, duplicate handling, limit boundaries, source of the simulated drift, and the limits of the analysis. Do not claim real silicon testing, production-scale processing, predictive ML, or improved manufacturing yield.
 
 Questions to explore with recruiters:
@@ -122,8 +120,7 @@ For work authorization, provide accurate answers to application questions and co
 
 - Streamlit setup: https://docs.streamlit.io/get-started/installation/command-line
 - Streamlit module launch: https://docs.streamlit.io/develop/concepts/architecture/run-your-app
-- Skyworks summer data internship: https://careers.skyworksinc.com/job/Data-Engineering-Summer-Intern-%28May-Aug-%26apos%3B27%29/78258-en_US/
-- Skyworks longer test co-op: https://careers.skyworksinc.com/job/Test-Engineering-Co-Op-%28SummerFall-2027%29/78214-en_US
+
 
 ## Verification
 
